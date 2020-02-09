@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<body>
+    
+    <div class="roastform">
+	<form action="addroast.php" method="POST">
+		<div class="title">
+			Add Roast:
+			<img src="pictures/fire.png">
+		</div>
+                <input type="text" name="roast" placeholder="Roast (Use $ in place of name)"><br>
+		<select name="roast_type">
+		  <option selected="selected">Roast Type</option>
+                  <option value="1">Fat</option>
+                <option value="2">Short</option>
+                <option value="3">Tall</option>
+                <option value="4">Stupid</option>
+                <option value="5">Skinny</option>
+                <option value="6">Ugly</option>
+                <option value="7">Old</option>
+                </select><br>
+		<input type="submit" value="Add Roast"><br>
+	</form>
+    </div>
+    <div class="roasteeform">
+	<form action="addroastee.php" method="POST">
+		<div class="title">
+			Add Roastee:
+			<img src="pictures/cry.png">
+		</div>
+                <input type="text" name="roastee" placeholder="Name"><br>
+		<select name="roast_type">
+		  <option selected="selected">Roast Type</option>
+                  <option value="1">Fat</option>
+                <option value="2">Short</option>
+                <option value="3">Tall</option>
+                <option value="4">Stupid</option>
+                <option value="5">Skinny</option>
+                <option value="6">Ugly</option>
+                <option value="7">Old</option>
+		</select><br>
+		<input type="submit" value="Add Roastee"><br>
+	</form>
+    </div>
+
+</body>
+</html>
